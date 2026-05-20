@@ -1,0 +1,406 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #000000;
+  color: white;
+}
+
+header {
+  background: #000000;
+  padding: 15px 40px;
+  display: grid;
+  grid-template-columns: 1fr auto;
+  align-items: center;
+}
+
+.agd {
+  color: #ff4da6;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 20px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+nav a:hover {
+  color: #ff4da6;
+}
+
+.hero {
+  text-align: center;
+  padding: 80px 20px;
+  background: linear-gradient(135deg, #000000, #111111);
+}
+
+.hero h2 {
+  font-size: 40px;
+  margin-bottom: 15px;
+  color: #ff4da6;
+}
+
+.hero p {
+  opacity: 0.8;
+}
+
+.contenedor {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  gap: 40px;
+}
+
+.texto {
+  line-height: 1.6;
+}
+
+.texto h2 {
+  margin-bottom: 20px;
+  color: #ff4da6;
+}
+
+.texto p {
+  margin-bottom: 15px;
+}
+
+.imagen img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.btn {
+  margin-top: 20px;
+  padding: 12px 25px;
+  background: #ff4da6;
+  border: none;
+  color: black;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 6px;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  transform: scale(1.05);
+}
+
+section {
+  padding: 60px 20px;
+  max-width: 1000px;
+  margin: auto;
+}
+
+#servicios h2 {
+  margin-bottom: 50px;
+  color: #ff4da6;
+}
+
+.cards {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.card {
+  background: #111111;
+  padding: 20px;
+  border-radius: 10px;
+  transition: 0.3s;
+  position: relative;
+  overflow: hidden;
+}
+
+.card img {
+  width: 100%;
+  border-radius: 10px;
+  margin-top: 15px;
+
+  opacity: 0;
+  max-height: 0;
+  transition: all 0.4s ease;
+}
+
+.card:hover img {
+  opacity: 1;
+  max-height: 200px;
+  transform: translateY(-5px);
+}
+
+input {
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  margin-top: 10px;
+  width: 250px;
+}
+
+footer {
+  background: #000000;
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
+  opacity: 0.8;
+}
+
+.lang-switch {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-left: 10px;
+}
+
+#login {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 70vh;
+  text-align: center;
+}
+
+.flag {
+  width: 25px;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.flag:hover {
+  transform: scale(1.2);
+}
+
+.link-descarga {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 10px 20px;
+  background: #ff4da6;
+  color: #000000;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 6px;
+  transition: 0.3s;
+}
+
+.link-descarga:hover {
+  background: #e60073;
+  transform: scale(1.05);
+}
+
+.contact-info {
+  margin-top: 20px;
+  background: #111111;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.contact-info p {
+  margin-bottom: 10px;
+}
+
+.contact-info strong {
+  color: #ff4da6;
+}
+
+#sobre h2 {
+  margin-top: 30px;
+  margin-bottom: 10px;
+  font-size: 22px;
+  color: #ff4da6;
+  border-left: 4px solid #ff4da6;
+  padding-left: 10px;
+}
+
+#sobre p {
+  margin-bottom: 15px;
+  color: white;
+  background: #111111;
+  padding: 15px;
+  border-radius: 8px;
+  border: 1px solid #222222;
+  line-height: 1.6;
+}
+
+#login form {
+  background: #111111;
+  padding: 30px;
+  border-radius: 10px;
+  border: 1px solid #ff4da6;
+  box-shadow: 0 0 15px rgba(255, 77, 166, 0.3);
+}
+
+#login h1 {
+  color: #ff4da6;
+  margin-bottom: 20px;
+}
+
+#login input {
+  width: 100%;
+  max-width: 250px;
+  background: #000;
+  color: white;
+  border: 1px solid #333;
+}
+
+#login input:focus {
+  outline: none;
+  border: 1px solid #ff4da6;
+  box-shadow: 0 0 5px #ff4da6;
+}
+
+#login button {
+  padding: 10px 20px;
+  background: #ff4da6;
+  border: none;
+  color: black;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 6px;
+  transition: 0.3s;
+}
+
+#login button:hover {
+  background: #e60073;
+  transform: scale(1.05);
+}
+
+#login a {
+  color: #ff4da6;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+#login a:hover {
+  text-decoration: underline;
+}
+
+#login label {
+  font-size: 14px;
+}
+.password-wrapper {
+  position: relative;
+  width: 250px;
+  margin: 10px 0;
+}
+
+.password-wrapper input {
+  width: 100%;
+  padding-right: 45px;
+}
+
+.password-wrapper button {
+  position: absolute;
+  right: 8px;
+  top: 60%; 
+  transform: translateY(-50%);
+  background: transparent;
+  border: none;
+  color: #ff4da6;
+  cursor: pointer;
+  font-size: 16px;
+
+  width: 18px;
+  height: 18px;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.password-wrapper button:hover {
+  transform: translateY(-50%);
+  color: #ff4da6;
+}
+
+/* ==========================================================================
+   MEDIA QUERIES PARA ADAPTACIÓN A TABLET Y MÓVIL
+   ========================================================================== */
+
+/* --- DISPOSITIVOS MEDIANOS (Tablets y Portátiles pequeños - menos de 1024px) --- */
+@media screen and (max-width: 1024px) {
+  header {
+    padding: 15px 20px; 
+  }
+
+  .contenedor {
+    grid-template-columns: 1fr; 
+    gap: 20px;
+    text-align: center;
+  }
+
+  .imagen img {
+    max-width: 80%; 
+    margin: 0 auto;
+    display: block;
+  }
+
+  section {
+    padding: 40px 20px;
+  }
+}
+
+/* --- DISPOSITIVOS PEQUEÑOS (Móviles - menos de 480px) --- */
+@media screen and (max-width: 480px) {
+  header {
+    grid-template-columns: 1fr; 
+    text-align: center;
+    gap: 15px;
+    padding: 20px;
+  }
+
+  nav {
+    justify-content: center;
+    flex-wrap: wrap; 
+    gap: 15px;
+  }
+
+  .lang-switch {
+    margin-left: 0; 
+    width: 100%;
+    justify-content: center;
+  }
+
+  .hero {
+    padding: 50px 15px;
+  }
+
+  .hero h2 {
+    font-size: 30px; 
+  }
+
+  #servicios h2 {
+    margin-bottom: 30px;
+  }
+
+  .cards {
+    gap: 20px;
+  }
+
+  .card {
+    width: 100%; 
+  }
+
+  .card img {
+    opacity: 1;
+    max-height: 200px;
+    margin-top: 15px;
+  }
+
+  #login form {
+    padding: 20px 15px;
+    width: 100%;
+    max-width: 320px;
+  }
+}
