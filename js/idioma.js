@@ -30,10 +30,42 @@ const translations = {
     "Instalacion-text4": "Optimización",
     "Instalacion-text5": "Mejoramos rendimiento y estabilidad para evitar lag y problemas.",
     
-    "footer-text": "© 2026 AGD - Servidores FiveM GTA5 Roleplay"
+    "footer-text": "© 2026 AGD - Servidores FiveM GTA5 Roleplay",
 
      // Traduccion login Html
 
+    "title-login": "Inicio de sesión",
+    "input-usuario": "Usuario",
+    "input-password": "Contraseña",
+    "text-recordarme": "Recordarme",
+    "btn-entrar": "Entrar",
+    "error-text": "Usuario o contraseña incorrectos",
+    "link-forgot-password": "¿Olvidaste tu contraseña?",
+    "text-no-account": "¿No tienes cuenta?",
+    "link-register": "Regístrate",
+
+    //sobre nosotros
+
+
+    "about-title-1": "Sobre nosotros",
+    "about-text-1": "Somos AGD Roleplay Studios, un equipo formado por 3 integrantes apasionados por el desarrollo de servidores roleplay personalizados para GTA V (FiveM). Nos dedicamos a crear proyectos únicos, profesionales y adaptados a cada comunidad.",
+    "about-title-2": "Qué hacemos",
+    "about-text-2": "Nos especializamos en el diseño y desarrollo de servidores roleplay completos. Creamos sistemas personalizados, configuramos economías, trabajos, scripts y todo lo necesario para que un servidor funcione de manera estable y atractiva.",
+    "about-title-3": "Nuestra forma de trabajar",
+    "about-text-3": "Trabajamos de manera organizada y cercana con cada cliente. Primero escuchamos la idea, después diseñamos una propuesta, desarrollamos el servidor, realizamos pruebas y finalmente entregamos el proyecto totalmente optimizado y funcional.",
+    "about-title-4": "Nuestra visión",
+    "about-text-4": "Nuestro objetivo es convertirnos en un referente en la creación de servidores roleplay personalizados, ofreciendo calidad, innovación y estabilidad en cada proyecto. Creemos en la creatividad, el trabajo en equipo y la comunidad como base del éxito.",
+
+
+    //contacto
+
+    "contact-title": "Contacto",
+    "contact-text-1": "¿Tienes alguna pregunta, sugerencia o necesitas más información sobre nuestros servicios? Estamos aquí para ayudarte.",
+    "contact-text-2": "Envíanos tu consulta y nuestro equipo te responderá lo antes posible. Nos comprometemos a ofrecerte una atención rápida, cercana y personalizada.",
+    "contact-email": "Email: contacto@agdservers.com",
+    "contact-discord": "Discord: AGD Studios",
+
+    "footer-text": "© 2026 AGD - Servidores FiveM GTA5 Roleplay"
 
   },
 
@@ -57,6 +89,18 @@ const translations = {
 
     "descarga-texto": "Download",
 
+   // Traduccion login Html
+  
+    "title-login": "Login",
+    "input-usuario": "Username",
+    "input-password": "Password",
+    "text-recordarme": "Remember me",
+    "btn-entrar": "Sign in",
+    "error-text": "Incorrect username or password",
+    "link-forgot-password": "Forgot your password?",
+    "text-no-account": "Don’t have an account?",
+    "link-register": "Sign up",
+
 
    // Traduccion Servicios Html
 
@@ -68,6 +112,26 @@ const translations = {
     "Instalacion-text4": "Optimization",
     "Instalacion-text5": "We improve performance and stability to avoid lag and issues.",
 
+
+    //sobre nosotros
+
+    "about-title-1": "About us",
+    "about-text-1": "We are AGD Roleplay Studios, a team of 3 members passionate about developing custom roleplay servers for GTA V (FiveM). We focus on creating unique, professional projects adapted to each community.",
+    "about-title-2": "What we do",
+    "about-text-2": "We specialize in designing and developing complete roleplay servers. We build custom systems, configure economies, jobs, scripts, and everything needed to make a server stable and engaging.",
+    "about-title-3": "How we work",
+    "about-text-3": "We work in an organized and close way with each client. First we listen to the idea, then we design a proposal, develop the server, run tests, and finally deliver a fully optimized and functional project.",
+    "about-title-4": "Our vision",
+    "about-text-4": "Our goal is to become a reference in custom roleplay server development, offering quality, innovation, and stability in every project. We believe in creativity, teamwork, and community as the foundation of success.",
+
+
+    //contacto
+
+    "contact-title": "Contact",
+    "contact-text-1": "Do you have any questions, suggestions or need more information about our services? We are here to help you.",
+    "contact-text-2": "Send us your inquiry and our team will respond as soon as possible. We are committed to offering fast, close and personalized attention.",
+    "contact-email": "Email: contacto@agdservers.com",
+    "contact-discord": "Discord: AGD Studios",
 
     "footer-text": "© 2026 AGD - FiveM GTA5 Roleplay Servers"
   }
